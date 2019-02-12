@@ -1,0 +1,6 @@
+2019-02-12 17:00:03.522 [main] DEBUG com.logback.test.LogbackTest -
+				logback 成功了
+2019-02-12 17:00:03.524 [main] INFO  com.logback.test.LogbackTest -
+				logback 成功了
+2019-02-12 17:00:03.525 [main] ERROR com.logback.test.LogbackTest -
+				logback 成功了
