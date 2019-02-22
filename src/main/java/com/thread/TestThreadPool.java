@@ -1,12 +1,13 @@
 package com.thread;
 
 import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class TestThreadPool {
 	public static void main(String[] args) {
-		ExecutorService service = Executors.newFixedThreadPool(5);
+		ExecutorService service = new ThreadPoolExecutor(4, 5, 0, TimeUnit.MICROSECONDS, new LinkedBlockingQueue<>());
 		for (int i = 0; i < 6; i++) {
 			service.execute(() -> {
 				try {

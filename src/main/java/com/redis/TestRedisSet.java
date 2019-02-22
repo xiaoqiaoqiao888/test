@@ -31,6 +31,7 @@ public class TestRedisSet {
 		// value
 		sb.append("$").append((value.getBytes()).length).append("\r\n");
 		sb.append("value").append("\r\n");
+		System.out.println(sb.toString());
 		os.write(sb.toString().getBytes());
 		byte[] res = new byte[2048];
 		if (is.read() == '+') {
