@@ -20,6 +20,8 @@ public class TestHashMap {
 		map.put("k11", "v1");
 		map.put("k12", "v1");
 		map.put("k13", "v1");
-		System.out.println(map);
+		Integer i = 0;
+		map.put("k14", i);
+		System.out.println(map.get("k14"));
 	}
 }

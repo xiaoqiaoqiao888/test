@@ -98,5 +98,10 @@
 			<version>1.2.54</version>
 		</dependency>
 		<!-- zk end -->
+		<!--lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
 	</dependencies>
 </project>
