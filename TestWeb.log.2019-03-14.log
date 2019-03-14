@@ -1,0 +1,256 @@
+2019-03-14 17:25:57.484 [main] DEBUG org.apache.ibatis.logging.LogFactory -
+				Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-14 17:25:57.577 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:25:57.577 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:25:57.577 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:25:57.577 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:26:23.382 [main] DEBUG org.apache.ibatis.logging.LogFactory -
+				Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-14 17:26:23.468 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:26:23.468 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:26:23.468 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:26:23.468 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:27:39.365 [main] DEBUG org.apache.ibatis.logging.LogFactory -
+				Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-14 17:27:39.452 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:27:39.453 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:27:39.453 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:27:39.453 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:29:05.517 [main] DEBUG org.apache.ibatis.logging.LogFactory -
+				Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-14 17:29:05.601 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:29:05.601 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:29:05.601 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:29:05.601 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:29:05.660 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -
+				Opening JDBC Connection
+2019-03-14 17:29:05.887 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				Created connection 1624820151.
+2019-03-14 17:29:05.887 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -
+				Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60d8c9b7]
+2019-03-14 17:29:05.888 [main] DEBUG com.mybatis.test.EmployeeMapper.getInfoById -
+				==>  Preparing: select * from tbl_employee where id =?; 
+2019-03-14 17:29:05.913 [main] DEBUG com.mybatis.test.EmployeeMapper.getInfoById -
+				==> Parameters: 1(Integer)
+2019-03-14 17:29:05.923 [main] DEBUG com.mybatis.test.EmployeeMapper.getInfoById -
+				<==      Total: 1
+2019-03-14 17:30:01.448 [main] DEBUG org.apache.ibatis.logging.LogFactory -
+				Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-14 17:30:01.543 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:30:01.544 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:30:01.544 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:30:01.544 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:30:01.606 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -
+				Opening JDBC Connection
+2019-03-14 17:30:01.791 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				Created connection 1624820151.
+2019-03-14 17:30:01.791 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -
+				Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60d8c9b7]
+2019-03-14 17:30:01.793 [main] DEBUG com.mybatis.test.EmployeeMapper.getInfoById -
+				==>  Preparing: select * from tbl_employee where id =?; 
+2019-03-14 17:30:01.816 [main] DEBUG com.mybatis.test.EmployeeMapper.getInfoById -
+				==> Parameters: 1(Integer)
+2019-03-14 17:30:01.830 [main] DEBUG com.mybatis.test.EmployeeMapper.getInfoById -
+				<==      Total: 1
+2019-03-14 17:30:40.999 [main] DEBUG org.apache.ibatis.logging.LogFactory -
+				Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-14 17:30:41.091 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:30:41.092 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:30:41.092 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:30:41.092 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:30:41.095 [main] DEBUG org.apache.ibatis.io.VFS -
+				Class not found: org.jboss.vfs.VFS
+2019-03-14 17:30:41.095 [main] DEBUG org.apache.ibatis.io.JBoss6VFS -
+				JBoss 6 VFS API is not available in this environment.
+2019-03-14 17:30:41.096 [main] DEBUG org.apache.ibatis.io.VFS -
+				Class not found: org.jboss.vfs.VirtualFile
+2019-03-14 17:30:41.096 [main] DEBUG org.apache.ibatis.io.VFS -
+				VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-03-14 17:30:41.096 [main] DEBUG org.apache.ibatis.io.VFS -
+				Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-03-14 17:30:41.097 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Find JAR URL: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test
+2019-03-14 17:30:41.097 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Not a JAR: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test
+2019-03-14 17:30:41.175 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: Employee.class
+2019-03-14 17:30:41.176 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: EmployeeController.class
+2019-03-14 17:30:41.176 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: EmployeeMapper.class
+2019-03-14 17:30:41.176 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: EmployeeMapper.xml
+2019-03-14 17:30:41.177 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: EmployeeService.class
+2019-03-14 17:30:41.177 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: EmployeeServiceImpl.class
+2019-03-14 17:30:41.177 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: MybatisTest.class
+2019-03-14 17:30:41.177 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Listing file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test
+2019-03-14 17:30:41.177 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Find JAR URL: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/Employee.class
+2019-03-14 17:30:41.177 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Not a JAR: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/Employee.class
+2019-03-14 17:30:41.178 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: ����   4 i  com/mybatis/test/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; gender email getId ()Ljava/lang/Integer; Code	     LineNumberTable LocalVariableTable this Lcom/mybatis/test/Employee; getLastName ()Ljava/lang/String;	     	getGender	   	  getEmail	   
+2019-03-14 17:30:41.180 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Find JAR URL: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/EmployeeController.class
+2019-03-14 17:30:41.180 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Not a JAR: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/EmployeeController.class
+2019-03-14 17:30:41.181 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: ����   4 *  #com/mybatis/test/EmployeeController  java/lang/Object employeeService "Lcom/mybatis/test/EmployeeService; RuntimeVisibleAnnotations 8Lorg/springframework/beans/factory/annotation/Autowired; <init> ()V Code
+2019-03-14 17:30:41.181 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Find JAR URL: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/EmployeeMapper.class
+2019-03-14 17:30:41.183 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Not a JAR: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/EmployeeMapper.class
+2019-03-14 17:30:41.184 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: ����   4   com/mybatis/test/EmployeeMapper  java/lang/Object getInfoById 0(Ljava/lang/Integer;)Lcom/mybatis/test/Employee; 
+2019-03-14 17:30:41.184 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Find JAR URL: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/EmployeeMapper.xml
+2019-03-14 17:30:41.184 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Not a JAR: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/EmployeeMapper.xml
+2019-03-14 17:30:41.185 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-03-14 17:30:41.185 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Find JAR URL: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/EmployeeService.class
+2019-03-14 17:30:41.185 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Not a JAR: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/EmployeeService.class
+2019-03-14 17:30:41.186 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: ����   4 	   com/mybatis/test/EmployeeService  java/lang/Object getInfoById 0(Ljava/lang/Integer;)Lcom/mybatis/test/Employee; 
+2019-03-14 17:30:41.186 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Find JAR URL: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/EmployeeServiceImpl.class
+2019-03-14 17:30:41.186 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Not a JAR: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/EmployeeServiceImpl.class
+2019-03-14 17:30:41.187 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: ����   4 #  $com/mybatis/test/EmployeeServiceImpl  java/lang/Object   com/mybatis/test/EmployeeService EmployeeMapper !Lcom/mybatis/test/EmployeeMapper; RuntimeVisibleAnnotations 8Lorg/springframework/beans/factory/annotation/Autowired; <init> ()V Code
+2019-03-14 17:30:41.187 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Find JAR URL: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/MybatisTest.class
+2019-03-14 17:30:41.187 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Not a JAR: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/MybatisTest.class
+2019-03-14 17:30:41.188 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: ����   4 P  com/mybatis/test/MybatisTest  java/lang/Object <init> ()V Code
+2019-03-14 17:30:41.188 [main] DEBUG org.apache.ibatis.io.ResolverUtil -
+				Checking to see if class com.mybatis.test.Employee matches criteria [is assignable to Object]
+2019-03-14 17:30:41.189 [main] DEBUG org.apache.ibatis.io.ResolverUtil -
+				Checking to see if class com.mybatis.test.EmployeeController matches criteria [is assignable to Object]
+2019-03-14 17:30:41.190 [main] DEBUG org.apache.ibatis.io.ResolverUtil -
+				Checking to see if class com.mybatis.test.EmployeeMapper matches criteria [is assignable to Object]
+2019-03-14 17:30:41.190 [main] DEBUG org.apache.ibatis.io.ResolverUtil -
+				Checking to see if class com.mybatis.test.EmployeeService matches criteria [is assignable to Object]
+2019-03-14 17:30:41.190 [main] DEBUG org.apache.ibatis.io.ResolverUtil -
+				Checking to see if class com.mybatis.test.EmployeeServiceImpl matches criteria [is assignable to Object]
+2019-03-14 17:30:41.191 [main] DEBUG org.apache.ibatis.io.ResolverUtil -
+				Checking to see if class com.mybatis.test.MybatisTest matches criteria [is assignable to Object]
+2019-03-14 17:30:41.251 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -
+				Opening JDBC Connection
+2019-03-14 17:30:41.454 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				Created connection 988800485.
+2019-03-14 17:30:41.454 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -
+				Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3aefe5e5]
+2019-03-14 17:30:41.456 [main] DEBUG com.mybatis.test.EmployeeMapper.getInfoById -
+				==>  Preparing: select * from tbl_employee where id =?; 
+2019-03-14 17:30:41.475 [main] DEBUG com.mybatis.test.EmployeeMapper.getInfoById -
+				==> Parameters: 1(Integer)
+2019-03-14 17:30:41.492 [main] DEBUG com.mybatis.test.EmployeeMapper.getInfoById -
+				<==      Total: 1
+2019-03-14 17:36:30.917 [main] DEBUG org.apache.ibatis.logging.LogFactory -
+				Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-14 17:36:31.010 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:36:31.011 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:36:31.011 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:36:31.011 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				PooledDataSource forcefully closed/removed all connections.
+2019-03-14 17:36:31.015 [main] DEBUG org.apache.ibatis.io.VFS -
+				Class not found: org.jboss.vfs.VFS
+2019-03-14 17:36:31.015 [main] DEBUG org.apache.ibatis.io.JBoss6VFS -
+				JBoss 6 VFS API is not available in this environment.
+2019-03-14 17:36:31.015 [main] DEBUG org.apache.ibatis.io.VFS -
+				Class not found: org.jboss.vfs.VirtualFile
+2019-03-14 17:36:31.016 [main] DEBUG org.apache.ibatis.io.VFS -
+				VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-03-14 17:36:31.016 [main] DEBUG org.apache.ibatis.io.VFS -
+				Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-03-14 17:36:31.016 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Find JAR URL: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test
+2019-03-14 17:36:31.016 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Not a JAR: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test
+2019-03-14 17:36:31.046 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: Employee.class
+2019-03-14 17:36:31.047 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: EmployeeMapper.class
+2019-03-14 17:36:31.047 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: EmployeeMapper.xml
+2019-03-14 17:36:31.048 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: MybatisTest.class
+2019-03-14 17:36:31.048 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Listing file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test
+2019-03-14 17:36:31.048 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Find JAR URL: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/Employee.class
+2019-03-14 17:36:31.049 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Not a JAR: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/Employee.class
+2019-03-14 17:36:31.049 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: ����   4 i  com/mybatis/test/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; gender email getId ()Ljava/lang/Integer; Code	     LineNumberTable LocalVariableTable this Lcom/mybatis/test/Employee; getLastName ()Ljava/lang/String;	     	getGender	   	  getEmail	   
+2019-03-14 17:36:31.050 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Find JAR URL: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/EmployeeMapper.class
+2019-03-14 17:36:31.050 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Not a JAR: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/EmployeeMapper.class
+2019-03-14 17:36:31.051 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: ����   4   com/mybatis/test/EmployeeMapper  java/lang/Object getInfoById 0(Ljava/lang/Integer;)Lcom/mybatis/test/Employee; 
+2019-03-14 17:36:31.051 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Find JAR URL: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/EmployeeMapper.xml
+2019-03-14 17:36:31.051 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Not a JAR: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/EmployeeMapper.xml
+2019-03-14 17:36:31.052 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-03-14 17:36:31.052 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Find JAR URL: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/MybatisTest.class
+2019-03-14 17:36:31.054 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Not a JAR: file:/D:/eclipse-workspace/springbootTest/target/test-classes/com/mybatis/test/MybatisTest.class
+2019-03-14 17:36:31.055 [main] DEBUG org.apache.ibatis.io.DefaultVFS -
+				Reader entry: ����   4 P  com/mybatis/test/MybatisTest  java/lang/Object <init> ()V Code
+2019-03-14 17:36:31.055 [main] DEBUG org.apache.ibatis.io.ResolverUtil -
+				Checking to see if class com.mybatis.test.Employee matches criteria [is assignable to Object]
+2019-03-14 17:36:31.056 [main] DEBUG org.apache.ibatis.io.ResolverUtil -
+				Checking to see if class com.mybatis.test.EmployeeMapper matches criteria [is assignable to Object]
+2019-03-14 17:36:31.056 [main] DEBUG org.apache.ibatis.io.ResolverUtil -
+				Checking to see if class com.mybatis.test.MybatisTest matches criteria [is assignable to Object]
+2019-03-14 17:36:31.116 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -
+				Opening JDBC Connection
+2019-03-14 17:36:31.321 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource -
+				Created connection 1175259735.
+2019-03-14 17:36:31.322 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -
+				Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@460d0a57]
+2019-03-14 17:36:31.323 [main] DEBUG com.mybatis.test.EmployeeMapper.getInfoById -
+				==>  Preparing: select * from tbl_employee where id =?; 
+2019-03-14 17:36:31.344 [main] DEBUG com.mybatis.test.EmployeeMapper.getInfoById -
+				==> Parameters: 2(Integer)
+2019-03-14 17:36:31.365 [main] DEBUG com.mybatis.test.EmployeeMapper.getInfoById -
+				<==      Total: 1
