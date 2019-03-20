@@ -23,7 +23,7 @@ public class TestFatherChild {
 	public static void main(String[] args) {
 		System.out.println("main");
 		new Child();
-		new Child();
+//		new Child();
 	}
 }
 
