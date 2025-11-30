@@ -9,7 +9,12 @@ import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.framework.recipes.locks.InterProcessMutex;
 import org.apache.curator.retry.ExponentialBackoffRetry;
 
+/**
+ * 分布式锁示例类
+ * 使用Curator框架实现分布式锁功能
+ */
 public class Recipes_Lock {
+    // 分布式锁的Zookeeper节点路径
 	static String lock_path = "/curator_recipes_lock_path";
 
 	// static CuratorFramework client =

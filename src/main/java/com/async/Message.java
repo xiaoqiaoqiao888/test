@@ -4,7 +4,7 @@ import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 延迟执行的消息
+ * 延迟执行的消息类，实现了Delayed接口，用于支持延迟队列功能
  * 
  * @author K. L. Mao
  * @create 2018/12/19

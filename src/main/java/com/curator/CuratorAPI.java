@@ -14,7 +14,9 @@ import org.apache.curator.retry.ExponentialBackoffRetry;
  *
  */
 public class CuratorAPI {
+    // 定义ZooKeeper连接地址常量
 	public static final String CONN_ADDR = "127.0.0.1:2181";
+    // 定义会话超时时间常量，单位为毫秒
 	public static final int SESSION_TIMEOUT = 2000;
 
 	public static void main(String[] args) {

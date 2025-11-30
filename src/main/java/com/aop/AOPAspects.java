@@ -19,11 +19,13 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class AOPAspects {
 
+	// 定义切入点，匹配AopService类中的所有方法
 	@Pointcut("within(AopService)")
 	public void pointcut() {
 		System.out.println("I am pointcut...........");
 	}
 
+	// 环绕通知，在切入点方法执行前后执行自定义逻辑
 	@Around("pointcut()")
 	public Object invokeMethod(ProceedingJoinPoint point) throws Throwable {
 

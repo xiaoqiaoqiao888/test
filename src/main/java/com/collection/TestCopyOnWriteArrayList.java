@@ -5,6 +5,11 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+/**
+ * 测试CopyOnWriteArrayList类的示例代码
+ * CopyOnWriteArrayList是Java并发包中的一个线程安全的List实现
+ * 它采用"写时复制"(Copy-On-Write)策略来保证线程安全
+ */
 public class TestCopyOnWriteArrayList {
 	public static void main(String[] args) {
 		// 这里使用了COW技术

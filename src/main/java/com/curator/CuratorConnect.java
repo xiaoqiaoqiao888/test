@@ -5,8 +5,12 @@ import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.retry.ExponentialBackoffRetry;
 
+/**
+ * CuratorConnect类
+ * 用于创建和管理Curator客户端与ZooKeeper的连接
+ */
 public class CuratorConnect {
-	// Curator客户端
+	// Curator客户端实例
 	public CuratorFramework client = null;
 	// 集群模式则是多个ip
 	private static final String zkServerIps = "127.0.0.1:2181";
